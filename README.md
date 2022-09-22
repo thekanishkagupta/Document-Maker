@@ -1,6 +1,5 @@
 
-# Infinite Memes
-
+# Document Maker
  An offline document editor which has different tools to add, modify the text, change styles, align and format the paragraph.
 
 ## Screenshots
@@ -13,26 +12,6 @@
  * PyQt5 is a comprehensive set of Python bindings for Qt v5. It is implemented as more than 35 extension modules and enables Python to be used as an alternative application development language to C++ on all supported platforms including iOS and Android. PyQt5 may also be embedded in C++ based applications to allow users of those applications to configure or enhance the functionality of those applications.
  
  * docx2txt is a pure python-based utility to extract text from docx files. The code is taken and adapted from python-docx. It can however also extract text from header, footer and hyperlinks. It can now also extract images.
- 
- 
- ## Working Explained
-  * How does Glide works? 
-  
-    When we provide the URL to the Glide, it does the following:-
-   1. It checks if the image with that URL key is available in the memory cache or not.
-   2. If present in the memory cache, it just shows the bitmap by taking it from the memory cache.
-   3. If not present in the memory cache, it checks in the disk cache.
-   4. If present in the disk cache, it loads the bitmap from the disk, also puts it in the memory cache and load the bitmap into the view.
-   5. If not present in the disk cache, it downloads the image from the network, puts it in the disk cache, also puts it in the memory cache and load the bitmap into the view.
-
- * How does Volley works? 
- 
-   It manages the processing and caching of network requests by doing following operations:-
-  1. Request queuing and prioritization
-  2. Effective request cache and memory management
-  3. Extensibility and customization of the library to our needs
-  4. Canceling the requests
-
 
 
 ## Any Queries?🤔
